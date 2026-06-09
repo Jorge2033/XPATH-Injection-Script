@@ -22,7 +22,10 @@ def vulnerable_login(username: str, password: str) -> bool:
     query = (
         f"//user[username/text()='{username}' and password/text()='{password}']"
     )
-    print(f"[VULNERABLE] XPath query: {query}")
+    display_query = (
+        f"//user[username/text()='{username}' and password/text()='[REDACTED]']"
+    )
+    print(f"[VULNERABLE] XPath query: {display_query}")
     return bool(root.xpath(query))
 
 
