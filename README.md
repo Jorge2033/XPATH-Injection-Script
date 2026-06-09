@@ -13,8 +13,8 @@ XPATH Injection Tester is a comprehensive tool designed for security professiona
 ## Installation
 
 ```bash
-git clone https://github.com/Hamibubu/XPATHi.git
-cd XPATHi
+git clone https://github.com/Jorge2033/XPATH-Injection-Script.git
+cd XPATH-Injection-Script
 pip install -r requirements.txt
 ```
 
@@ -23,5 +23,5 @@ pip install -r requirements.txt
 1. Adequate the payload to your POST request if needed.
 2. Run the following command
 ```bash
-python3 autoXPATH.py -u http://<your endpoint> -d <the depth needed>
+python3 XPATH.py -u http://<your endpoint> -d <the depth needed>
 ```
